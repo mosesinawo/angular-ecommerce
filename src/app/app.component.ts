@@ -8,7 +8,6 @@ import { ProductsListsComponent } from './pages/products-lists/products-lists.co
   imports: [RouterOutlet, HeaderComponent, ProductsListsComponent],
   template: `
     <app-header />
-    <app-products-lists />
     <router-outlet />
   `,
   styles: [],
